@@ -6,6 +6,7 @@ import LoginSet from "./LoginSet";
 import LoginBelowButtons from "./LoginBelowButtons";
 import LoginValidation from "./LoginValidation";
 import LoginInput from "./LoginInput";
+import { userAuthEndPoint } from "../../utils/ajaxAPI";
 
 class Login extends Component {
   constructor(props) {
@@ -57,7 +58,7 @@ class Login extends Component {
   }
   //서버 api
   sendLoginData = () => {
-    fetch("http://10.58.7.150:8000/user/auth", {
+    fetch(userAuthEndPoint, {
       method: "POST",
       body: JSON.stringify({
         email: this.state.email,

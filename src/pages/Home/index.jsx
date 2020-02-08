@@ -5,7 +5,7 @@ import ProdCard1 from "../../components/HomeProdCard1";
 import ProdCard2 from "../../components/HomeProdCard2";
 import FadeLoader from "../../atoms/FadeLoader.jsx";
 import { fetchAPI } from "../../utils/fetchAPI";
-
+import { productEndPoint } from "../../utils/ajaxAPI";
 const mdSelectList = ["베스트", "연말선물", "살림고수템"];
 
 export default class Home extends Component {
@@ -22,7 +22,8 @@ export default class Home extends Component {
   }
   componentDidMount() {
     // fetchAPI("http://localhost:3000/data/goodsData.json").then(res => {
-    fetchAPI("http://10.58.7.150:8000/product").then(res => {
+    fetchAPI(productEndPoint).then(res => {
+      console.log("res :", res);
       this.setState({
         goods: res.goods,
         present: res.present,

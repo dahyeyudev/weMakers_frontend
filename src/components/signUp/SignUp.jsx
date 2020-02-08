@@ -2,7 +2,7 @@ import React, { Component } from "react";
 //import ReactTooltip from 'react-tooltip';
 import sty from "./SignUp.module.scss";
 //import LoginFooter from '../loginFooter/LoginFooter';
-
+import { userEndPoint } from "../../utils/ajaxAPI";
 export default class SignUp extends Component {
   constructor(props) {
     super(props);
@@ -142,7 +142,7 @@ export default class SignUp extends Component {
   postSignup() {
     console.log("signup하고있음");
     // 전부통과시 서버로 전송할 데이터 (fetch)
-    fetch("http://10.58.7.150:8000/user", {
+    fetch(userEndPoint, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
