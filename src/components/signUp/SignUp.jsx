@@ -2,7 +2,7 @@ import React, { Component } from "react";
 //import ReactTooltip from 'react-tooltip';
 import sty from "./SignUp.module.scss";
 //import LoginFooter from '../loginFooter/LoginFooter';
-import { userEndPoint } from "../../utils/ajaxAPI";
+import { userEndPoint } from "../../ajax/ajaxAPI";
 export default class SignUp extends Component {
   constructor(props) {
     super(props);

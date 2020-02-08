@@ -6,7 +6,7 @@ import LoginSet from "./LoginSet";
 import LoginBelowButtons from "./LoginBelowButtons";
 import LoginValidation from "./LoginValidation";
 import LoginInput from "./LoginInput";
-import { userAuthEndPoint } from "../../utils/ajaxAPI";
+import { userAuthEndPoint } from "../../ajax/ajaxAPI";
 
 class Login extends Component {
   constructor(props) {

@@ -4,8 +4,8 @@ import HomeTag from "../../components/HomeTag";
 import ProdCard1 from "../../components/HomeProdCard1";
 import ProdCard2 from "../../components/HomeProdCard2";
 import FadeLoader from "../../atoms/FadeLoader.jsx";
-import { fetchAPI } from "../../utils/fetchAPI";
-import { productEndPoint } from "../../utils/ajaxAPI";
+import { fetchAPI } from "../../ajax/fetchAPI";
+import { productEndPoint } from "../../ajax/ajaxAPI";
 const mdSelectList = ["베스트", "연말선물", "살림고수템"];
 
 export default class Home extends Component {
