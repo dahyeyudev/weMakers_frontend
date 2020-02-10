@@ -26,10 +26,10 @@ yarn
 yarn dev
 ```
 
-Deploy: 작업 중
+Deploy(Currently Back-End Server is Closed)
 
 ```
-http://
+http://54.95.3.37/
 ```
 
 ## Demo
