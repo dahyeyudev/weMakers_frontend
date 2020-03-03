@@ -1,6 +1,6 @@
 ## Introduction
 
-[카카오메이커스](https://makers.kakao.com/) 클론 프로젝트
+[카카오메이커스](https://makers.kakao.com/) 클론 프로젝트.
 프로젝트 목표는 e-commerce 사이트의 기본적인 회원 가입과 유지, 상품 조회, 주문입니다. 프론트 3명, 백엔드 1명으로 진행하였습니다. 트렐로를 이용하여 task를 배분하였으며 스크럼을 통해 프로젝트 진행 기간 동안 각자의 진행 사항을 공유하며 협업하였습니다.
 
 ## Spec
@@ -40,6 +40,6 @@ http://54.95.3.37/
 
 ## Contact
 
-- youngnam Kim, kimhyoungnams@gmail.com
+- Hyoungnam Kim, kimhyoungnams@gmail.com
 - Dahye Yu, dahye.yu.dev@gmail.com
 - Seunggeun Yu, yousk6347@gmail.com
